@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/material_grey_500"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/imageView_dashboard"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Ordenar Ahora"
+        android:textColor="@color/material_white_500"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginTop="25dp" />
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusableInTouchMode="false"
+    android:layout_width="match_parent"
+    android:layout_height="125dp"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:id="@+id/ImageView_backgroudDrawer1"
+        android:src="@drawable/background_navigation_drawer" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ImageView_perfil"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="16dp"
+        />
+
+    <TextView
+        android:id="@+id/TextView_User"
+        style="@style/TextViewAppearance.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:textColor="#fff"
+        android:textSize="@dimen/title_tab"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/ImageView_perfil"
+        android:layout_alignStart="@+id/ImageView_perfil"
+        android:paddingLeft="1dp"
+        android:textStyle="bold" />
+
+    <com.jn.sgcumg.view.MaterialRippleLayout
+        style="@style/RippleStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:rippleColor="@color/main_color_grey_400"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:id="@+id/view"></com.jn.sgcumg.view.MaterialRippleLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView_settings"
+        android:src="@drawable/icon_settings_light"
+        android:layout_alignTop="@+id/view"
+        android:layout_toLeftOf="@+id/view"
+        android:layout_toStartOf="@+id/view" />
+
+
+</RelativeLayout>

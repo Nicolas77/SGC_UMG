@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="drawer_width">300dp</dimen>
+    <dimen name="ken_burns_header">250dp</dimen>
+    <dimen name="cpb_stroke_width">4dp</dimen>
+    <dimen name="title_schedule">11sp</dimen>
+    <dimen name="title_tab">15sp</dimen>
+    <dimen name="sub_title_tab">12sp</dimen>
+    <dimen name="title_tab2">18sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="fab_shadow_size">12dp</dimen>
+
+    <dimen name="fab_scroll_threshold">4dp</dimen>
+    <dimen name="fab_elevation_lollipop">8dp</dimen>
+
+    <dimen name="patio_default_thumbnail_width">100dp</dimen>
+    <dimen name="patio_default_thumbnail_height">100dp</dimen>
+    <dimen name="patio_default_thumbnails_container_padding">8dp</dimen>
+
+
+
+
+
+    <dimen name="margin_standard">16dp</dimen>
+    <dimen name="margin_short">8dp</dimen>
+    <dimen name="margin_extra_short">4dp</dimen>
+
+    <dimen name="toolbar_elevation">4dp</dimen>
+
+    <dimen name="toolbar_margin_start">72dp</dimen>
+    <dimen name="flexible_space_height">72dp</dimen>
+    <dimen name="flexible_space_image_height">240dp</dimen>
+    <dimen name="flexible_space_show_fab_offset">120dp</dimen>
+
+    <dimen name="parallax_image_height">180dp</dimen>
+    <dimen name="tab_height">48dp</dimen>
+
+    <dimen name="header_bar_height">72dp</dimen>
+    <dimen name="intersection_height">16dp</dimen>
+
+    <dimen name="sliding_slop">32dp</dimen>
+    <dimen name="sliding_overlay_blur_size">4dp</dimen>
+
+    <dimen name="margen">15dp</dimen>
+    <dimen name="tam_texto">20sp</dimen>
+    <dimen name="tam_texto_login_form">17sp</dimen>
+    <dimen name="tam_texto_subtitle">15sp</dimen>
+
+</resources>

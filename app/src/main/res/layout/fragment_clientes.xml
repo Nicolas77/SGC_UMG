@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cpb_white"
+    tools:context=".fragments.DirectorioFragment" >
+    <ProgressBar
+        android:id="@+id/updateProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+    <RelativeLayout
+        android:id="@+id/searchBarContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:scaleType="fitCenter">
+
+        <EditText
+            android:id="@+id/input_search_query"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/rounded_textview"
+            android:ems="10"
+            android:focusableInTouchMode="true"
+            android:hint="Buscar"
+            android:imeOptions="actionDone"
+            android:maxLines="1"
+            android:paddingLeft="35dp"
+            android:paddingRight="4dip"
+            android:singleLine="true"
+            android:textSize="15sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:padding="3dp"
+            android:src="@drawable/search" />
+
+    </RelativeLayout>
+    <com.jn.sgcumg.utils.ExampleContactListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/searchBarContainer"
+        android:background="@color/cpb_white" />
+
+</RelativeLayout>
